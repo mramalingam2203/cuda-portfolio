@@ -1,0 +1,3 @@
+/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir
+/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/edit_cache.dir
+/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/rebuild_cache.dir
