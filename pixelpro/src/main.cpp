@@ -2,6 +2,7 @@
 #include "grayscale.cuh"
 #include "colorspace.cuh"
 #include "gamma_brightness.cuh"
+#include "convolution.cuh"
 
 int main() {
     
@@ -50,6 +51,24 @@ int main() {
     cv::imwrite("../output/bright.png", bright);
     cv::imwrite("../output/gamma.png", gamma_corrected);
 
+
+    // Convolution filters
+    cv::Mat sobel_out(height, width, CV_8UC1);
+    cv::Mat prewitt_out(height, width, CV_8UC1);
+    cv::Mat laplacian_out(height, width, CV_8UC1);
+
+    std::cout << "Running Sobel...\n";
+    sobel_magnitude_cuda(img.data, sobel_out.data, width, height, channels);
+    std::cout << "Running Prewitt...\n";
+    prewitt_magnitude_cuda(img.data, prewitt_out.data, width, height, channels);
+    std::cout << "Running Laplacian...\n";
+    laplacian_cuda(img.data, laplacian_out.data, width, height, channels);
+
+    cv::imwrite("../output/sobel.png", sobel_out);
+    cv::imwrite("../output/prewitt.png", prewitt_out);
+    cv::imwrite("../output/laplacian.png", laplacian_out);
+
+    std::cout << "Saved output images in ./output/\n";
 
     return 0;
     
