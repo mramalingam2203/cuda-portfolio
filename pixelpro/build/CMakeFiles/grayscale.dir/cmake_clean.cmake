@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o"
   "CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o"
   "CMakeFiles/grayscale.dir/src/main.cpp.o"
   "CMakeFiles/grayscale.dir/src/main.cpp.o.d"

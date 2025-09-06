@@ -11,6 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.cmake.pre-gen"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.depend"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.cmake.pre-gen"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.depend"
   "CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o.cmake.pre-gen"
   "CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o.depend"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
@@ -138,7 +142,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o.cmake.pre-gen"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.cmake.pre-gen"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.cmake.pre-gen"
   "CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o.cmake"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.cmake"
+  "CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

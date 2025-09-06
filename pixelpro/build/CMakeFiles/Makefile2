@@ -81,12 +81,12 @@ clean: CMakeFiles/grayscale.dir/clean
 CMakeFiles/grayscale.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale.dir/build.make CMakeFiles/grayscale.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/grayscale.dir/build.make CMakeFiles/grayscale.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=1,2,3 "Built target grayscale"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target grayscale"
 .PHONY : CMakeFiles/grayscale.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grayscale.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/grayscale.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles 0
 .PHONY : CMakeFiles/grayscale.dir/rule

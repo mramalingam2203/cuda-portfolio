@@ -76,10 +76,24 @@ CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o: CMakeFiles/gray
 	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src && /usr/bin/cmake -E make_directory /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/.
 	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/./grayscale_generated_grayscale.cu.o -D generated_cubin_file:STRING=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/./grayscale_generated_grayscale.cu.o.cubin.txt -P /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o.cmake
 
+CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o: /home/rmuthuk/Documents/cuda-portfolio/pixelpro/src/colorspace.cu
+CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o: CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.depend
+CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o: CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o"
+	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src && /usr/bin/cmake -E make_directory /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/.
+	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/./grayscale_generated_colorspace.cu.o -D generated_cubin_file:STRING=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/./grayscale_generated_colorspace.cu.o.cubin.txt -P /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o.cmake
+
+CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o: /home/rmuthuk/Documents/cuda-portfolio/pixelpro/src/gamma_brightness.cu
+CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o: CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.depend
+CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o: CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o"
+	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src && /usr/bin/cmake -E make_directory /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/.
+	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/./grayscale_generated_gamma_brightness.cu.o -D generated_cubin_file:STRING=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/./grayscale_generated_gamma_brightness.cu.o.cubin.txt -P /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o.cmake
+
 CMakeFiles/grayscale.dir/src/main.cpp.o: CMakeFiles/grayscale.dir/flags.make
 CMakeFiles/grayscale.dir/src/main.cpp.o: /home/rmuthuk/Documents/cuda-portfolio/pixelpro/src/main.cpp
 CMakeFiles/grayscale.dir/src/main.cpp.o: CMakeFiles/grayscale.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grayscale.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grayscale.dir/src/main.cpp.o"
 	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/grayscale.dir/src/main.cpp.o -MF CMakeFiles/grayscale.dir/src/main.cpp.o.d -o CMakeFiles/grayscale.dir/src/main.cpp.o -c /home/rmuthuk/Documents/cuda-portfolio/pixelpro/src/main.cpp
 
 CMakeFiles/grayscale.dir/src/main.cpp.i: cmake_force
@@ -96,10 +110,14 @@ grayscale_OBJECTS = \
 
 # External object files for target grayscale
 grayscale_EXTERNAL_OBJECTS = \
-"/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o"
+"/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o" \
+"/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o" \
+"/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o"
 
 grayscale: CMakeFiles/grayscale.dir/src/main.cpp.o
 grayscale: CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o
+grayscale: CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o
+grayscale: CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o
 grayscale: CMakeFiles/grayscale.dir/build.make
 grayscale: /usr/lib/x86_64-linux-gnu/libcudart_static.a
 grayscale: /usr/lib/x86_64-linux-gnu/librt.a
@@ -159,7 +177,7 @@ grayscale: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 grayscale: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 grayscale: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 grayscale: CMakeFiles/grayscale.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable grayscale"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable grayscale"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grayscale.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +188,8 @@ CMakeFiles/grayscale.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/grayscale.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/grayscale.dir/clean
 
+CMakeFiles/grayscale.dir/depend: CMakeFiles/grayscale.dir/src/grayscale_generated_colorspace.cu.o
+CMakeFiles/grayscale.dir/depend: CMakeFiles/grayscale.dir/src/grayscale_generated_gamma_brightness.cu.o
 CMakeFiles/grayscale.dir/depend: CMakeFiles/grayscale.dir/src/grayscale_generated_grayscale.cu.o
 	cd /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmuthuk/Documents/cuda-portfolio/pixelpro /home/rmuthuk/Documents/cuda-portfolio/pixelpro /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build /home/rmuthuk/Documents/cuda-portfolio/pixelpro/build/CMakeFiles/grayscale.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/grayscale.dir/depend
